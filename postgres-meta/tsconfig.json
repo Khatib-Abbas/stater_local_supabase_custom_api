@@ -1,0 +1,22 @@
+{
+  "include": ["src/lib"],
+  "exclude": ["src/lib/connection*.ts"],
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "module": "CommonJS",
+    "outDir": "dist/main",
+    "rootDir": "src/lib",
+    "sourceMap": true,
+    "target": "ES2015",
+
+    "strict": true,
+
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+
+    "forceConsistentCasingInFileNames": true,
+    "stripInternal": true
+  }
+}
